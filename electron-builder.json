@@ -21,7 +21,7 @@
 		"bundleVersion": "71",
 		"helperBundleId": "chat.rocket.electron.helper",
 		"type": "distribution",
-		"artifactName": "rocketchat-${version}.${ext}",
+		"artifactName": "1homebase-chat-${version}.${ext}",
 		"extendInfo": {
 			"NSMicrophoneUsageDescription": "I need access to your microphone to record the audio you want to send.",
 			"NSCameraUsageDescription": "I need access to your camera to record the video you want to send."
@@ -57,7 +57,7 @@
 		"asarUnpack": [
 			"node_modules"
 		],
-		"artifactName": "rocketchat-${version}-mas.${ext}"
+		"artifactName": "1homebase-chat-${version}-mas.${ext}"
 	},
 	"win": {
 		"target": [
@@ -70,18 +70,18 @@
 		"perMachine": false,
 		"allowElevation": true,
 		"allowToChangeInstallationDirectory": true,
-		"artifactName": "rocketchat-setup-${version}.${ext}"
+		"artifactName": "1homebase-chat-setup-${version}.${ext}"
 	},
 	"appx": {
 		"backgroundColor": "#2f343d",
-		"displayName": "Rocket.Chat",
-		"publisherDisplayName": "Rocket.Chat",
+		"displayName": "1HomeBase Chat",
+		"publisherDisplayName": "1HomeBase",
 		"languages": [
 			"en-US",
 			"en-GB",
 			"pt-BR"
 		],
-		"artifactName": "rocketchat-${version}-${arch}.${ext}"
+		"artifactName": "1homebase-chat-${version}.${ext}"
 	},
 	"linux": {
 		"target": [
@@ -90,28 +90,28 @@
 			"rpm",
 			"snap"
 		],
-		"executableName": "rocketchat-desktop",
+		"executableName": "1homebase-desktop",
 		"category": "GNOME;GTK;Network;InstantMessaging",
 		"desktop": {
 			"StartupWMClass": "Rocket.Chat",
 			"MimeType": "x-scheme-handler/rocketchat"
 		},
-		"artifactName": "rocketchat-${version}.${ext}"
+		"artifactName": "1homebase-${version}.${ext}"
 	},
 	"deb": {
-		"artifactName": "rocketchat_${version}_${arch}.${ext}"
+		"artifactName": "1homebase{version}.${ext}"
 	},
 	"rpm": {
-		"artifactName": "rocketchat-${version}.${arch}.${ext}"
+		"artifactName": "rocketchat-${version}.${ext}"
 	},
 	"snap": {
-		"artifactName": "rocketchat_${version}_${arch}.${ext}"
+		"artifactName": "rocketchat_${version}.${ext}"
 	},
 	"afterSign": "./build/notarize.js",
 	"publish": [
 		{
 			"provider": "github",
-			"owner": "RocketChat",
+			"owner": "ei1tech",
 			"repo": "Rocket.Chat.Electron",
 			"vPrefixedTagName": false
 		}
