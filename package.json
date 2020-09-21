@@ -1,10 +1,10 @@
 {
   "name": "rocketchat",
-  "description": "Official OSX, Windows, and Linux Desktop Clients for Rocket.Chat",
+  "description": "Official OSX and Windows Desktop Clients for 1HomeBase Chat",
   "version": "2.17.11",
-  "author": "Rocket.Chat Support <support@rocket.chat>",
-  "copyright": "© 2019, Rocket.Chat",
-  "homepage": "https://rocket.chat",
+  "author": "1HomeBase Support <support@1homebase.com>",
+  "copyright": "© 2020, 1HomeBase",
+  "homepage": "https://1homebase.com",
   "license": "MIT",
   "keywords": [
     "rocketchat",
@@ -86,5 +86,5 @@
     "npm": ">=6.9.x",
     "yarn": ">=1.17.x"
   },
-  "productName": "Rocket.Chat"
+  "productName": "1HomeBase Chat"
 }
